@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="scala-play-2-jps-plugin">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/software/scala-play-2/lib/scala-play-2-jps-plugin.jar!/" />
+      <root url="jar://$USER_HOME$/software/scala-play-2/lib/scala-play-2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
