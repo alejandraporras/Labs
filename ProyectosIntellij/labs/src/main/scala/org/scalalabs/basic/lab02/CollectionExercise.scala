@@ -153,11 +153,16 @@ object CollectionExercise05 {
   def groupByWithFoldLeft(seq: Seq[Int]): Map[Boolean, Seq[Int]] = {
 
     val aux = Map(false-> Seq(1, 2))
+
+    val aux2= Map(false-> Seq(1, 2))
+
     val a: Seq[Int] = filterWithFoldLeft(seq)
 
-    val ac: Map[Boolean, Seq[Int]] = seq.foldLeft(Map.empty[Boolean, Seq[Int]]) ((acc, c) =>  )
+    //val ac: Map[Boolean, Seq[Int]] = seq.foldLeft(Map.empty[Boolean, Seq[Int]]) ((acc, c) =>  )
 
-    ac
+
+
+    aux
   }
 }
 
